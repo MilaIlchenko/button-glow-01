@@ -4,7 +4,7 @@
 @import url("reset.css");
 /* ------------------ */
 body {
-	background-color: #303640;
+	background-color: #0b400f;
 }
 /* ------------------ */
 .wrapper {
@@ -17,11 +17,12 @@ body {
 /* ---MAIN STYLES--- */
 /* ----------------- */
 
+
 .button {
 	position: relative;
 	overflow: hidden;
 	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 30px;
+	border-radius: 35px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 .button::before {
@@ -45,6 +46,7 @@ body {
 	position: relative;
 	z-index: 2;
 }
+
 .button__glow {
 	position: absolute;
 	top: 0;
@@ -63,9 +65,9 @@ body {
 	*/
 
 	/* Single color */
-	/* background-color: yellow; */
+	/* background-color: red; */
 	/* Rainbow gradient */
-	background: linear-gradient(-90deg, red, orange, yellow, green, blue, indigo, violet);
+	background: linear-gradient(-90deg, red, orange, yellow, red, green, red, red, red, violet);
 	/* My son's drawing */
 	/* background: url("../img/image.png") center / 100% 100% no-repeat; */
 }
