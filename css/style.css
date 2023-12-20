@@ -4,7 +4,7 @@
 @import url("reset.css");
 /* ------------------ */
 body {
-	background-color: #0b400f;
+	background-color: #202120;
 }
 /* ------------------ */
 .wrapper {
@@ -67,7 +67,7 @@ body {
 	/* Single color */
 	/* background-color: red; */
 	/* Rainbow gradient */
-	background: linear-gradient(-90deg, red, orange, yellow, red, green, red, red, red, violet);
+	background: linear-gradient(-90deg, red,  orange, red, rgb(83, 105, 2), red, red, yellow, red, green,  red, red, violet, red );
 	/* My son's drawing */
 	/* background: url("../img/image.png") center / 100% 100% no-repeat; */
 }
